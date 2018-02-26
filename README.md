@@ -19,7 +19,8 @@ npm run build --report
 ```
 ## 预览
 
-
+![预览图片](https://github.com/satin520/read/blob/master/static/images/img1.jpg)
+![预览图片](https://github.com/satin520/read/blob/master/static/images/img2.jpg)
 
 ![预览图片](https://github.com/satin520/read/blob/master/static/images/img3.jpg)
 ![预览图片](https://github.com/satin520/read/blob/master/static/images/img4.jpg)

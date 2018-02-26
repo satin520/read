@@ -341,7 +341,13 @@
 	.read-ft li p {
 		line-height: 16px;
 	}
-	
+	.read-ft .linkA{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+	}
 	.read-ft i {
 		color: #fff;
 		font-size: 20px;

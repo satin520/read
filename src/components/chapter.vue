@@ -90,6 +90,8 @@
 	#chapter .chapter ul li {
 		border-bottom: 1px solid #ccc;
 		padding: 5px 0;
+		height: 26px;
+		overflow: hidden;
 		position: relative;
 		text-indent: 15px;
 	}

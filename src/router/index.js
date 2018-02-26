@@ -8,6 +8,7 @@ import read from '@/components/read'
 import source from '@/components/source'
 import chapter from '@/components/chapter'
 import search from '@/components/search'
+import rank from '@/components/rank'
 
 Vue.use(Router)
 
@@ -62,6 +63,14 @@ export default new Router({
 			path: '/search',
 			name: 'search',
 			component: search,
+			meta: {
+				keepAlive: true
+			}
+		},
+		{
+			path: '/rank',
+			name: 'rank',
+			component: rank,
 			meta: {
 				keepAlive: true
 			}

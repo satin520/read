@@ -10,6 +10,9 @@
 			<div class="item">
 				<router-link to="/search" class="item2"></router-link>
 			</div>
+			<div class="item">
+				<router-link to="/rank" class="item3 "></router-link>
+			</div>
 		</div>
 		<div class="collect">
 			<div class="hd">
@@ -146,7 +149,7 @@
 	}
 	
 	.type .item {
-		width: 25%;
+		width: 20%;
 		padding: 10px 0;
 		float: left;
 		text-align: center;
@@ -163,6 +166,9 @@
 	.type a.item2{
 		background: #42B983;
 	}
+	.type a.item3{
+		background: #ff6600;
+	}
 	.type a.item1:after {
 		content: '分类';
 		position: absolute;
@@ -178,6 +184,19 @@
 	}
 		.type a.item2:after {
 		content: '搜索';
+		position: absolute;
+		left: 1px;
+		top: 1px;
+		border: 1px solid #fff;
+		border-radius: 50%;
+		display: block;
+		height: 48px;
+		line-height: 48px;
+		color: #fff;
+		width: 48px;
+	}
+	.type a.item3:after {
+		content: '排行';
 		position: absolute;
 		left: 1px;
 		top: 1px;

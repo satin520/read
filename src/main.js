@@ -30,6 +30,7 @@ Vue.http.interceptors.push((request, next) => {
         }, request._timeout);
     }
     next((response) => {
+    
 　　　　return response;
     })
 })
